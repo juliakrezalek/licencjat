@@ -1,0 +1,31 @@
+# pliki wrażliwe
+.env
+credentials.json
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# środowiska wirtualne (lokalne)
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+
+# replit / vs code / ide stuff
+.pythonlibs/
+.upm/
+.replit
+.vscode/
+.idea/
+
+# logi i cache
+*.log
+*.cache/
+*.pid
+
+# inne śmieci systemowe
+.DS_Store
+Thumbs.db
