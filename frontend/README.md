@@ -1,4 +1,4 @@
-# frontend – projekt licencjacki
+# frontend
 
 ten folder zawiera frontend aplikacji stworzonej w środowisku lovable.
 
