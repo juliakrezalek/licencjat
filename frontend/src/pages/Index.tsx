@@ -26,17 +26,19 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <div className="space-y-4 text-sm">
-                <p>Tematem badania jest zrozumienie, jak użytkownicy odbierają diagnozy medyczne udzielane przez sztuczną inteligencję.</p>
+                <p>W tym badaniu porozmawiasz z trzema różnymi chatbotami opartymi na sztucznej inteligencji.</p>
                 
-                <p>Badanie realizowane jest w ramach pracy licencjackiej autorstwa Julii Krężałek, studentki kierunku Psychologia i Informatyka na Uniwersytecie SWPS, pod opieką dra Maksymiliana Bieleckiego.</p>
+                <p>Każdy z nich będzie prowadził rozmowę w oparciu o inny przypadek medyczny oraz zaproponowaną przez siebie diagnozę i plan leczenia.</p>
                 
-                <p>Badanie rozpocznie się krótką rozmową wprowadzającą, po której uczestnik porozmawia z trzema różnymi chatbotami opartymi na sztucznej inteligencji. Każdej rozmowie towarzyszyć będzie krótki wywiad. Całość zakończy rozmowa podsumowująca, dotycząca ogólnych wrażeń z udziału w badaniu.</p>
+                <p>Każdy przypadek został celowo skrócony do kluczowych informacji klinicznych - jego celem nie jest odtworzenie pełnej procedury diagnostycznej. Przedstawiona diagnoza została wygenerowana przez chatbota opartego na sztucznej inteligencji.</p>
                 
-                <p>Badanie potrwa nie dłużej niż godzinę.</p>
+                <p>Twoim zadaniem jest ocenić sposób rozumowania i trafność wniosków przedstawionych przez chatbota. </p>
                 
-                <p>Udział w badaniu jest dobrowolny i anonimowy – można zrezygnować na każdym etapie, bez podawania przyczyny.</p>
+                <p>Zastanów się nad diagnozą, analizuj ją i prowadź rozmowę - możesz zadawać pytania, komentować i dzielić się swoimi przemyśleniami.</p>
                 
-                <p>Cały przebieg badania będzie rejestrowany, aby umożliwić późniejszą analizę wypowiedzi. Zebrane dane zostaną wykorzystane wyłącznie w celach naukowych, w ramach pracy licencjackiej. Badanie nie gromadzi żadnych danych technicznych z urządzenia ani przeglądarki uczestnika.</p>
+                <p>Nie korzystaj z żadnych zewnętrznych źródeł informacji (np. wyszukiwarek internetowych, innych chatbotów AI, książek czy aplikacji medycznych). Liczy się wyłącznie Twoja samodzielna analiza w oparciu o rozmowę.</p>
+                
+                <p>Każda rozmowa ma ograniczony czas - jeśli będzie się zbliżał do końca, zostaniesz o tym poinformowany/a.</p>
               </div>
             </CardContent>
           </Card>
@@ -57,4 +59,3 @@ const Index = () => {
 };
 
 export default Index;
-
