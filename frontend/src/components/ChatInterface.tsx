@@ -71,23 +71,23 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   };
 
   return (
-    <Card className="h-[600px] flex flex-col">
-      <CardContent className="flex-1 flex flex-col p-4">
-        <ScrollArea className="flex-1 pr-4" ref={scrollAreaRef}>
-          <div className="space-y-4">
+    <Card className="h-full flex flex-col">
+      <CardContent className="flex-1 flex flex-col p-4 overflow-hidden">
+        <ScrollArea className="flex-1 w-full">
+          <div className="space-y-4 pr-4 min-h-0" ref={scrollAreaRef}>
             {messages.map((message, index) => (
               <div
                 key={index}
                 className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}
               >
                 <div
-                  className={`max-w-[80%] rounded-lg p-3 ${
+                  className={`max-w-[80%] rounded-lg p-3 break-words ${
                     message.role === 'user'
                       ? 'bg-primary text-primary-foreground'
                       : 'bg-muted'
                   }`}
                 >
-                  <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                  <p className="text-sm whitespace-pre-wrap break-words">{message.content}</p>
                   {message.timestamp && (
                     <p className="text-xs opacity-50 mt-1">
                       {new Date(message.timestamp).toLocaleTimeString()}
